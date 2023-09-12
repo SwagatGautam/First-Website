@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #6e6e6e;
+    ;
+}
+
+/*styling the navigation bar*/
+nav {
+    width: 100%;
+    background-color: #383838;
+    margin: auto;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 3px solid #39395f;
+    text-align: center;
+}
+
+/*styling the hyperlink*/
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+/*hover effect for links in navigation bar */
+a:hover {
+    color: rosybrown;
+}
+
+/*current page indicator in navigation bar*/
+.current {
+    background-color: #bcfd4c;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 50px;
+    max-width: 50px;
+}
+
+/*main div*/
+.row {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 90%;
+    margin-left: 3%;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.row img {
+    height: 350px;
+    width: 350px;
+}
+
+/*styling h2*/
+.row h2 {
+    margin: 0;
+    color: greenyellow;
+    text-align: center;
+}
+
+/*styling paragraph*/
+.row p {
+    color: #c0bdbd;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.main {
+    margin-left: 50px;
+}

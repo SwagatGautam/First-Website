@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #6e6e6e;
+}
+
+h1 {
+  text-align: center;
+  color: #bcfd4c;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/*styling the navigation bar*/
+nav {
+  width: 100%;
+  background-color: #383838;
+  margin: auto;
+  border-radius: 0 0 40px 40px;
+  border-bottom: 3px solid #39395f;
+  text-align: center;
+}
+
+/*styling the hyperlink*/
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 19px;
+}
+
+/*hover effect for links in navigation bar */
+a:hover {
+  color: rosybrown;
+}
+
+/*current page indicator in navigation bar*/
+.current {
+  background-color: #bcfd4c;
+  height: 50px;
+  opacity: 0.8;
+  border-radius: 30px;
+  max-width: 63px;
+}
+
+/*styling screenshot*/
+.screenshot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes {
+  font-size: 16px;
+  padding-left: 35%;
+
+}
+
+.likes h3 {
+  padding-left: 9%;
+  color: orange;
+}
+
+.likes ul {
+  padding-left: 12%;
+  color: white;
+}
+
+.row {
+  background-color: #252121;
+  border-radius: 10px;
+}
+
+/*styling figure caption*/
+figcaption {
+  text-align: center;
+  color: #bcfd4c;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/*styling h2*/
+.row h2 {
+  padding-left: 45%;
+  color: #bcfd4c;
+}

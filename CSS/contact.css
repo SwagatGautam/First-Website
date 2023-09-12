@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #6e6e6e;
+}
+
+/*styling the navigation bar*/
+nav {
+    width: 100%;
+    background-color: #383838;
+    margin: auto;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 3px solid #39395f;
+    text-align: center;
+}
+
+/*styling the hyperlink*/
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+/*hover effect for links in navigation bar */
+a:hover {
+    color: rosybrown;
+}
+
+/*current page indicator in navigation bar*/
+.current {
+    background-color: #bcfd4c;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 30px;
+    max-width: 60px;
+}
+
+.header {
+    height: 100%;
+    /*defines a relative height */
+    background-color: #6e6e6e;
+    position: relative;
+    /* changes the position of the element relative to the parent element */
+}
+
+/*adjusting form size and padding*/
+form {
+    padding-left: 30%;
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+/*styling input field*/
+input {
+    width: 90%;
+    padding: 12px;
+    font-size: 20px;
+    background: transparent;
+}
+
+/*style for textarea*/
+textarea {
+    background: transparent;
+    border: 2px solid black;
+    width: 90%;
+    padding: 12px;
+    font-size: 20px;
+}
+
+/*style for label*/
+label {
+
+    height: 100%;
+    color: white;
+    cursor: text;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*styling footer*/
+.footer {
+    background-color: #24262b;
+    padding: 65px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.footercol {
+    width: 26%;
+    padding: 0 40px;
+}
+
+.footercol h4 {
+    font-size: 20px;
+    position: relative;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.footercol h4:before {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    height: 5px;
+    border-radius: 4px;
+    width: 80px;
+    background-color: greenyellow;
+}

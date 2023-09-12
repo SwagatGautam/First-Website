@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <!-- meta tags -->
+    <meta name="Bonsai" content="Bonsai Plants">
+    <meta name="Keyword" content="html,head,meta">
+    <meta name="author" content="Swagat Gautam, Dev Aanand Bachhar, Shankchhi Sunuwar, Amit Saini, Rishiram Sah">
+    <style>
+        /*internal css*/
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .head_container {
+            text-align: center;
+        }
+
+        .main_container {
+            display: flex;
+            overflow: auto;
+            width: 100%;
+        }
+
+        .box_container {
+            border: 10px solid #eee;
+            width: 20%;
+
+        }
+
+        .more_information {
+            background-color: white;
+            padding-left: 40%;
+            padding-bottom: 5px;
+        }
+
+        /*hover effect*/
+        .more_information.a:hover {
+            color: red;
+
+        }
+
+        .container_1 {
+            text-align: center;
+
+        }
+
+        .image_container img {
+            width: 100%;
+        }
+
+        /*styling h3*/
+        h3 {
+            text-align: center;
+            color: black;
+            font-family: sans-serif;
+        }
+
+        /*styling paragraph   */
+        p {
+            text-align: justify;
+            color: grey;
+            padding: 0px 10px;
+        }
+
+        /*styling hyperlink*/
+        a {
+            text-decoration: none;
+        }
+
+        /*styling the navigation bar*/
+        nav {
+            width: 100%;
+            background-color: #383838;
+            margin: auto;
+            border-radius: 0 0 40px 40px;
+            border-bottom: 3px solid #39395f;
+            text-align: center;
+        }
+
+        /*styling hyperlink*/
+        a {
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 19px;
+        }
+
+        /*hover effect for links in navigation bar */
+        a:hover {
+            color: rosybrown;
+        }
+
+        /*current page indicator in navigation bar*/
+        .current {
+            background-color: #bcfd4c;
+            height: 50px;
+            opacity: 0.8;
+            border-radius: 30px;
+            max-width: 60px;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <table width="90%" style="margin: auto;">
+            <tr>
+                <th>
+                    <a href="../Home.html">Home</a>
+                </th>
+
+                <th>
+                    <a href="./Blog.html">Blog</a>
+                </th>
+
+                <th>
+                    <a href="./Products.html">Products</a>
+                </th>
+
+                <th>
+                    <a href="./Research.html">Research</a>
+                </th>
+
+                <th class="current">
+                    <a href="./about.html">About Us</a>
+                </th>
+
+                <th>
+                    <a href="./contact.html">Contact Us</a>
+                </th>
+            </tr>
+        </table>
+    </nav>
+    <!-- presentation of team members inside div tag -->
+    <div class="head_container">
+        <h1>Our Team Members</h1>
+    </div>
+    <!-- main div -->
+    <div class="main_container">
+        <div class="box_container">
+            <div class="image_container">
+                <img src="../images/dev.png"></img>
+                <h3>Dev Aanand Bachhar</h3>
+                <p>I am Dev Aandand Bachhar. I am passionate about web development. I am currently studying in Islington
+                    College. I graduated from United.</p>
+                <span class="more_information">
+                    <a href="./Dev.html"><button>More</button></a>
+
+                </span>
+            </div>
+        </div>
+        <div class="box_container">
+            <div class="image_container">
+                <img src="../images/swagat.jpg" style="height: 350px"></img>
+                <h3>Swagat Gautam</h3>
+                <p>Sup? This is Swagat Gautam. I am a passionate web developer currently studying at Islington College.
+                    I recently graduated from Trinity International SS.</p>
+                <span class="more_information">
+                    <a href="./Swagat.html "><button>More</button></a>
+                </span>
+            </div>
+        </div>
+        <div class="box_container">
+            <div class="image_container">
+                <img src="../images/Amit.png"></img>
+                <h3>Amit Saini</h3>
+                <p>Hello I am Amit Saini. I am a frontend coder. I'm currently studying at Islington College. I
+                    graduated my secondary level education from Trinity College.</p>
+                <span class="more_information">
+                    <a href="./Amit.html "><button>More</button></a>
+            </div>
+        </div>
+        <div class="box_container">
+            <div class="image_container">
+                <img src="../images/shankchhi.jpg"></img>
+                <h3>Shankchhi Sunuwar</h3>
+                <p>Hello, I am Shakshi. I am a backend coder. I am currently studying at
+                    Islington College for BIT Course. I love coding! Learn more about me.</p>
+                <span class="more_information">
+                    <a href="../html/shankchhi.html "><button>More</button></a>
+            </div>
+        </div>
+        <div class="box_container">
+            <div class="image_container">
+                <img src="../images/Rishi.jpg"></img>
+                <h3>Rishi Kumar Shah</h3>
+                <p>Hello, I am Rishi Ram Sah. I am very passionate about web development. I am currently studying at
+                    Islington College for Bsc IT.</p>
+                <span class="more_information">
+                    <a href="./Rishi.html "><button>More</button></a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

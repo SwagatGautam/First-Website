@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <title>Products</title>
+    <!-- meta tags -->
+    <meta name="Bonsai" content="Bonsai Plants">
+    <meta name="Keyword" content="html,head,meta">
+    <meta name="author" content="Swagat Gautam, Dev Aanand Bachhar, Shankchhi Sunuwar, Amit Saini, Rishiram Sah">
+    <link rel="stylesheet" href="../CSS/product.css">
+    <style>
+        /*internal css*/
+        .slider {
+            width: 90%;
+            height: 400px;
+            box-sizing: border-box;
+            overflow: hidden;
+            margin-left: 4%;
+            background-color: #383838;
+            border-radius: 50%;
+        }
+
+        .cart1 {
+            cursor: pointer;
+            width: 8%;
+            margin-left: 50%;
+        }
+
+        .desc {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <!-- navigation section -->
+        <nav>
+            <table width="90%" style="margin: auto;">
+                <tr>
+                    <th>
+                        <a href="../Home.html">Home</a>
+                    </th>
+
+                    <th>
+                        <a href="./Blog.html">Blog</a>
+                    </th>
+
+                    <th class="current">
+                        <a href="./Products.html">Products</a>
+                    </th>
+
+                    <th>
+                        <a href="./Research.html">Research</a>
+                    </th>
+
+                    <th>
+                        <a href="./About.html">About Us</a>
+                    </th>
+
+                    <th>
+                        <a href="./contact.html">Contact Us</a>
+                    </th>
+
+                    <th style="text-align:right">
+                        <div class="circle" id="Add">
+                            <p>0</p>
+                        </div>
+                        <img src="../images/cart.png" class="addtocart">
+
+                    </th>
+                </tr>
+            </table>
+        </nav>
+    </section>
+    <!-- marquee tag slides texts -->
+    <marquee behaviour="flow" direction="left" scrollamount="20">We have variety of plants of your choice!!</marquee>
+    <div class="sell0">
+        Get 15% <span style="color:#bcfd4c"> Discount</span> On Your First Order!
+    </div>
+    <hr style="width:50%;">
+    <div class="slider">
+
+        <div id="img">
+
+            <img src="../images/goldengate.png">
+
+        </div>
+
+    </div>
+
+    <div class="sell">
+
+        SALE <span style="color:#bcfd4c">SALE</span> SALE!!!
+
+    </div>
+    <hr style="max-width: 89%; ">
+
+    <h1 style="padding-left:8%; padding-top:0; font-size: 40px; font-family:sans-serif; letter-spacing: 4px;">TOP
+        SELLING</h1>
+    <!-- section for top selling plants -->
+    <div class="fcontainer">
+
+        <div class="fitem">
+
+            <div class="product">
+                <img src="../images/goldengate.png" alt="Bonsai Plant">
+                <h3>Golden Gate Ficus</h3>
+                <p class="price">$49.99</p>
+                <p class="desc">Golden Gate Ficus bonsai is not that difficult to take care of.
+                    Moreover, these plants can be kept both indoors and outdoors. 5-7 Years old and 10"-14" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/pomegranate.png" alt="Bonsai Plant">
+                <h3>Pomegranate Bonsai Plant</h3>
+                <p class="price">$45.00</p>
+                <p class="desc">Pomegranates have narrowly oblong shiny leaves, funnel shaped flowers available in
+                    variety of colors. 5-7 years old, 12" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/sagopalm.png" alt="Bonsai Plant">
+                <h3>Sago Palm</h3>
+                <p class="price">$49.50</p>
+                <p class="desc">This Palm tree can add a tropical feel to any setting. It is easy to take care of. It is
+                    also a slow growth plant. Age Range: 3-5 years and 10"-12" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="fcontainer">
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/chineseelm.jpg" alt="Bonsai Plant">
+                <h3>Chinese Elm Plant</h3>
+                <p class="price">$69.99</p>
+                <p class="desc">Chinese Elm is a great tree for the beginners and intermediate enthusiasts as it is easy
+                    to grow, easy to train and easy to shape. Its age range is around 5-7 years and is 10" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/juniper.png" alt="Bonsai Plant">
+                <h3>Young Juniper</h3>
+                <p class="price">$29.00</p>
+                <p class="desc">This Young Juniper plant is not that hard to take care of. This plant is easy to convert
+                    into the artful shapes. Its age ranges usually from 3-4 years and is 6"-9" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/moneytree.png" alt="Bonsai Plant">
+                <h3>Money Tree Grove</h3>
+                <p class="price">$49.99</p>
+                <p class="desc">The Money Tree Grove is thought to bring good fortune and luck. This plant flourishes
+                    with five leaf sprouts. It is usually 8"-12" tall. Pot for this plant may vary accordance to the
+                    need</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="fcontainer">
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/largeginkgo.png" alt="Bonsai Plant">
+                <h3>Large Ginkgo Plant</h3>
+                <p class="price">$129.0</p>
+                <p class="desc">This bonsai plant is considered to be te "fountain of youth" which promotes the overall
+                    health. Its age ranges from 6-8 years and is 16"-20" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/japanesepine.png" alt="Bonsai Plant">
+                <h3>Japanese Black Pine</h3>
+                <p class="price">$140</p>
+                <p class="desc">This bonsai has a beautiful distinctive shape with upward and outward growth.Its age
+                    ranges from 5-7 years and is 14"-18" tall. </p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/ginsengficus.png" alt="Bonsai Plant">
+                <h3>Ginseng Ficus</h3>
+                <p class="price">$15</p>
+                <p class="desc">It can be set on any table or desk which brings natural beauty inside of your house. It
+                    should be watered one a week and tolerates low indirect light.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="Topic1">
+        <hr>
+        <h1 style=" font-size: 40px; font-family:sans-serif; letter-spacing: 4px;">DISCOUNT</h1>
+    </div>
+    <!-- section for discounted plants -->
+    <div class="fcontainer4">
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/monstera.png" alt="Bonsai Plant">
+                <h3>Monstera Deliciosa Plant</h3>
+                <p class="price"><del style="color:red">$17.00</del> New Price: $12</p>
+                <p class="desc">This bonsai plant offers air purifying qualities for air pollutants. With proper care,
+                    this plant can grow lot higher. It is also a low maintenance plant. Proper watering is required for
+                    the maintainance.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/aglaonema.png" alt="Bonsai Plant">
+                <h3>Aglaonema Red Ruby Plant</h3>
+                <p class="price"><del style="color: red;">$8.00</del> New Price: $6.50</p>
+                <p class="desc">This bonsai plant offers air purifying qualities for air pollutants.It can be placed it
+                    in the balcony, stairs and even in kitchen. The dark places are not the desired places to grow your
+                    Aglaonema Bonsai!</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="fitem">
+            <div class="product">
+                <img src="../images/dracaena.jpg" alt="Bonsai Plant">
+                <h3>Dracaenea Massageana Giganta Plant</h3>
+                <p class="price"><del style="color:red">$9.00</del> New Price: $5.00</p>
+                <p class="desc">Dracaena is a low maintainance plant but requires a regular supply of water. This plant
+                    adjusts its size in accordance to the sun light it recieves. It is 6" tall.</p>
+                <button class="quick" onclick="add()">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<!-- javascript -->
+<script type="text/javascript" src="../javascript/javascript.js"> </script>
+
+<script type="text/javascript">
+    // storing images in variable images
+
+    var images = ['../images/goldengate.png', '../images/aglaonema.png', '../images/dracaena.jpg', '../images/monstera.png', '../images/japanesepine.png', '../images/sagopalm.png'];
+    var x = 0;
+    var imgs = document.getElementById('img');
+    setInterval(slider, 2000);
+            slider function
+            // slider function
+        function slider() {
+        if (x < images.length) {
+            x = x + 1;
+        }
+        else {
+            x = 1;
+        }
+        imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+    }
+</script>
+
+</html>

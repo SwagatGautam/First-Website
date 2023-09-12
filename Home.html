@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <!--meta tags-->
+    <meta name="Bonsai" content="Bonsai Plants">
+    <meta name="Keyword" content="html,head,meta">
+    <meta name="author" content="Swagat Gautam, Dev Aanand Bachhar, Shankchhi Sunuwar, Amit Saini, Rishiram Sah">
+    <link rel="stylesheet" type="text/css" href="./CSS/home.css">
+    <style>
+        /*internal CSS*/
+        .search {
+            text-align: center;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .list {
+            padding-left: 0%;
+            color: gray;
+        }
+
+        .list1 {
+            padding-left: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <!--navigation section-->
+        <nav>
+            <table width="90%" style="margin: auto;">
+                <tr>
+                    <th class="current">
+                        <a href="./Home.html">Home</a>
+                    </th>
+
+                    <th>
+                        <a href="./html/Blog.html">Blog</a>
+                    </th>
+
+                    <th>
+                        <a href="./html/Products.html">Products</a>
+                    </th>
+
+                    <th>
+                        <a href="./html/Research.html">Research</a>
+                    </th>
+
+                    <th>
+                        <a href="./html/about.html">About Us</a>
+                    </th>
+
+                    <th>
+                        <a href="./html/contact.html">Contact Us</a>
+                    </th>
+                </tr>
+            </table>
+        </nav>
+        <!--date-->
+        <p id="date"
+            style="font-size: 15px; text-align:right; color:white; font-weight: bold; font-family:sans-serif; padding-right: 10px">
+        </p>
+        <header class="text_style">
+            <h1>Welcome user, what have you thought of buying today?</h1>
+        </header>
+        <!--container for animation-->
+        <div class="container1">
+            <div class="anim">
+                <span class="one"> Want to Buy <span style="color:#BAFF39">Bonsai</span></span>
+                <span class="slide">
+                    <span class="two">Plants?</span>
+                </span>
+            </div>
+        </div>
+        </div>
+        <!--Description on webpages-->
+        <div class="home">
+            <div class="home1">
+                <a href="./html/Blog.html">
+                    <h2>"Blog"</h2>
+                    <p>Blog page contains desmonstration about how technology has affected daily life and business. This
+                        page aims in projecting the pros, cons and usage of technologies and how it's been beneficial as
+                        well as cruel to people in accordance to the need and use. </p>
+                </a>
+            </div>
+
+
+            <div class="home1">
+                <a href="./html/products.html">
+                    <h2>"Products"</h2>
+                    <p>Product page on our website features different Bonsai plants available. The short description on
+                        different indoor plants as well as some of their properties such as; Age Range, Height are also
+                        mentioned.</p>
+                </a>
+            </div>
+
+            <div class="home1">
+                <a href="./html/research.html">
+                    <h2>"Research"</h2>
+                    <p>Research page projects different websites that were taken as reference during the creation of
+                        this website. 6 different websites are mentioned here along with the web components that were
+                        referenced as inspiration. Also, there are screenshots of this website alongside to compare the
+                        features.</p>
+                </a>
+            </div>
+
+            <div class="home1">
+                <a href="./html/about.html">
+                    <h2>"About Us"</h2>
+                    <p>About Us section on this website holds the description about our developers. There is also a
+                        personal Curriculum Vitae of each members who created this website alsong with their skills in
+                        coding.</p>
+                </a>
+            </div>
+
+            <div class="home1">
+                <a href="./html/contact.html">
+                    <h2>"Contact Us"</h2>
+                    <p>If you ever want to leave a feedback on our website, this particular webpage is what you'd go
+                        for! One can get our phone numbers, emails from this website. Please go through this section to
+                        get help from th Customer Care. Our customer care is available 24 hours.</p>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footercol">
+                    <h4 style="margin-top: 0px;">Webpage</h4>
+                    <ul class="list">
+                        <li><a href="./html/Blog.html">Blog</a>: Know about technology!</li>
+                        <li><a href="./html/products.html">Products</a>: Get products of your choice.</li>
+                        <li><a href="./html/research.html">Research</a>: Some of our webcomponents.</li>
+                        <li><a href="./html/about.html">About Us</a>: Learn about our developers!</li>
+                        <li><a href="./html/contact.html">Contact Us</a>: Get our email and number!</li>
+                    </ul>
+                </div>
+                <div class="footercol">
+                    <h4 style="margin-top: 0px">Feedback</h4>
+                    <ul class="list">
+                        <li><a href="./contact.html">Form</a> :Leave us a feedback</li>
+                    </ul>
+                </div>
+                <div class="footercol">
+                    <h4 style="margin-top: 0px">Follow Us</h4>
+                    <div class="socials">
+                        <a target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.jpg"
+                                width="10%"></a>
+                        <a target="_blank" href="https://www.whatsapp.com/"><img src="./images/whatsapp.jpg"
+                                width="10%"></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img src="./images/instagram.jpg"
+                                width="10%"></a>
+                        <a target="_blank" href="https://www.twitter.com/"><img src="./images/twitter.jpg"
+                                width="10%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- javascript  -->
+<script type="text/javascript">
+
+    function display_date() {
+        document.getElementById('date').innerHTML = Date();
+        setTimeout(display_date, 1000);
+    }
+    display_date();   
+</script>
+
+</html>

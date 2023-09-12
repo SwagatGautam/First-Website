@@ -1,0 +1,173 @@
+body {
+    margin: 0px;
+    background-color: #6e6e6e;
+    font-family: sans-serif;
+}
+
+/*styling the navigation bar*/
+nav {
+    width: 100%;
+    background-color: #383838;
+    margin: auto;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 3px solid #39395f;
+    text-align: center;
+}
+
+/*styling the hyperlink*/
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+/*hover effect for links in navigation bar */
+a:hover {
+    color: rosybrown;
+}
+
+/*styling cart logo*/
+.addtocart {
+    width: 30px;
+}
+
+/*product count */
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 100px;
+    margin-left: 90%;
+    position: relative;
+
+}
+
+/*current page indicator in navigation bar*/
+.current {
+    background-color: #bcfd4c;
+    height: 50px;
+    opacity: 0.8;
+    border-radius: 30px;
+    max-width: 60px;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+
+.fcontainer4 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+/*styling hover effect on card*/
+.fitem:hover {
+    border-radius: 18px;
+    box-shadow: 0 10px 15px hotpink;
+    transform: translate(0px, -5px);
+    cursor: pointer;
+    color: grey;
+}
+
+.Topic {
+    padding: 8%;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
+
+.Topic1 {
+    padding: 8%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*styping slider*/
+.slider {
+    padding: 30%;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 150%;
+    /* background-color: rgb(152, 144, 152); */
+}
+
+.cart {
+    background-color: slategrey;
+    padding: 5%;
+}
+
+.sell {
+    padding-left: 31%;
+    font-size: 500%;
+    color: white;
+    font-family: fantasy;
+}
+
+.sell0 {
+    font-size: 400%;
+    padding-left: 14%;
+    color: white;
+    font-family: fantasy;
+    /* background-color: grey; */
+}
+
+.product {
+    width: 305px;
+    padding: 22px;
+    border: 1px solid grey;
+    background-color: white;
+    box-shadow: 1px 3px;
+    font-weight: bold;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+/*styling image*/
+img {
+    width: 100%;
+}
+
+.product h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.product p {
+    font-family: verdana;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    font-family: cursive;
+}
+
+.quick {
+    background-color: #bcfd4c;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*styling hover*/
+.quick:hover {
+    background-color: grey;
+}
